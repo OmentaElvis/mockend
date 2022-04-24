@@ -9,6 +9,14 @@
     },
     "description":{
       "loremParagraphs":{"minLength":200, "maxLength":500}
-    }
+    },
+    "status":{
+      "read":{"boolean":{}},
+      "products":{"string":{}}
+    },
+    "id":{"regexp":"[a-z0-9]{8}"}
+  },
+  "Products":{
+    "id":{"string":{}}
   }
 }
